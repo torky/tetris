@@ -12,4 +12,17 @@ package tetris;
  */
 public class Logic {
     
+    int[][] positions = new int[10][20];
+    int[][] colots = new int [10][20];
+    
+    
+    public Logic() {
+        SquareBlock currentBlock = new SquareBlock();
+    }
+    
+    public void gameTick() {
+        
+     
+    }
+    
 }
