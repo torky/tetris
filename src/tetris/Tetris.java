@@ -6,8 +6,6 @@
 
 package tetris;
 
-import java.awt.Color;
-import java.awt.Window;
 import javax.swing.JFrame;
 
 /**
@@ -24,7 +22,9 @@ public class Tetris {
         JFrame j = new JFrame();
         
         j.setSize(600, 800);
-	j.add(gp);
+        j.setResizable(false);
+	j.add(gp);        
+        j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	j.setVisible(true);
     }
     
