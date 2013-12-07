@@ -10,6 +10,6 @@ package tetris;
  *
  * @author joelnpam
  */
-public interface Input {
+public interface Input implements KeyListener{
     
 }
