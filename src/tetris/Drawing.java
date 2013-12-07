@@ -6,10 +6,14 @@
 
 package tetris;
 
-/**
- *
- * @author joelnpam
- */
-public class Drawing {
-    
+import java.awt.Color;
+import java.awt.Graphics;
+import javax.swing.JPanel;
+
+public class Drawing extends JPanel{
+    public void paintComponent(Graphics g){
+        super.paintComponent(g);
+        g.setColor(Color.YELLOW);
+        g.drawRect(30,30,30,30);
+    }
 }

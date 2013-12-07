@@ -6,6 +6,10 @@
 
 package tetris;
 
+import java.awt.Color;
+import java.awt.Window;
+import javax.swing.JFrame;
+
 /**
  *
  * @author joelnpam
@@ -16,7 +20,12 @@ public class Tetris {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Drawing gp = new Drawing();
+        JFrame j = new JFrame();
+        
+        j.setSize(600, 800);
+	j.add(gp);
+	j.setVisible(true);
     }
     
 }
