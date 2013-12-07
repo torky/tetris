@@ -11,5 +11,6 @@ package tetris;
  * @author joelnpam
  */
 public class Logic {
-    
+        int[][] array = new int[10][20];
+
 }
